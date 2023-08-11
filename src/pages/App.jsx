@@ -3,6 +3,7 @@ import Profile from "../components/profile/profile";
 import Switch from "../components/switch/switch";
 import Links from "../components/links/links";
 import Social from "../components/socialLinks/socialLinks"
+import Footer from "../components/footer/footer";
 import "./App.css";
 
 import imgDarkMode from "../img/avatar.jpg"
@@ -36,6 +37,7 @@ const App = () => {
 
 
     </div>
+    <Footer link={"#"}>@B4g4rini</Footer>
   </div>
   );
 };
