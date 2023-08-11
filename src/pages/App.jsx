@@ -11,13 +11,18 @@ import imgLightMode from "../img/avatar-light.jpg"
 
 const App = () => {
   const [isLightMode,setIsLightMode] = useState(false);
+  const toggleMode = () => {
+    setIsLightMode((prevMode) => !prevMode);
+  };
 
-  const imgSrc =  isLightMode ? imgLightMode : imgDarkMode;
-  const imgAlt = isLightMode ? "Imagem no Modo Claro" : "Imagem no Modo Escuro"
+  const imgSrc = isLightMode ? imgLightMode : imgDarkMode;
+  const imgAlt = isLightMode ? "Imagem no Modo Claro" : "Imagem no Modo Escuro";
+
   return (
+    <div id="App" className={isLightMode ? "light" : ""}>
   <div id="container">
     <Profile imgSrc={imgSrc} imgAlt={imgAlt}>@B4g4rini</Profile>
-    <Switch></Switch>
+    <Switch mode={toggleMode} infoButton={isLightMode}/>
     <div id="links">
       <ul>
 <Links link={"https://github.com"}>GitHub</Links>
@@ -38,6 +43,7 @@ const App = () => {
 
     </div>
     <Footer link={"#"}>@B4g4rini</Footer>
+  </div>
   </div>
   );
 };
