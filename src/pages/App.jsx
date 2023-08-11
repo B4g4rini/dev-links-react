@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Profile from "../components/profile/profile";
 import Switch from "../components/switch/switch";
+import Links from "../components/links/links";
 
 import "./App.css";
 
@@ -16,6 +17,16 @@ const App = () => {
   <div id="container">
     <Profile imgSrc={imgSrc} imgAlt={imgAlt}>@B4g4rini</Profile>
     <Switch></Switch>
+    <div id="links">
+      <ul>
+<Links link={"https://github.com"}>GitHub</Links>
+<Links link={"#"}>Instagram</Links>
+<Links link={"#"}>Portifólio</Links>
+<Links link={"#"}>Projetos</Links>
+
+
+      </ul>
+    </div>
   </div>
   );
 };
