@@ -28,7 +28,7 @@ const App = () => {
 <Links link={"https://github.com/B4g4rini"}>GitHub</Links>
 <Links link={"https://www.reddit.com/user/DARK_GHOST2007"}>Reddit</Links>
 <Links link={"#"}>Portifólio</Links>
-<Links link={"#"}>Projetos</Links>
+<Links link={"https://b4g4rini.github.io/"}>Projetos</Links>
 
 
       </ul>
