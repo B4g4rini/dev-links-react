@@ -25,8 +25,8 @@ const App = () => {
     <Switch mode={toggleMode} infoButton={isLightMode}/>
     <div id="links">
       <ul>
-<Links link={"https://github.com"}>GitHub</Links>
-<Links link={"#"}>Instagram</Links>
+<Links link={"https://github.com/B4g4rini"}>GitHub</Links>
+<Links link={"https://www.reddit.com/user/DARK_GHOST2007"}>Reddit</Links>
 <Links link={"#"}>Portifólio</Links>
 <Links link={"#"}>Projetos</Links>
 
@@ -34,11 +34,11 @@ const App = () => {
       </ul>
     </div>
     <div id="socialLinks">
-      <Social href={"#"} icon={"logo-github"} />
-      <Social href={"#"} icon={"logo-youtube"} />
-      <Social href={"#"} icon={"logo-instagram"} />
-      <Social href={"#"} icon={"logo-twitch"} />
-      <Social href={"#"} icon={"logo-linkedin"} />
+      <Social href={"https://github.com/B4g4rini"} icon={"logo-github"} />
+      <Social href={"https://www.youtube.com/channel/UCKQUusGn73P5MIlM825dxNQ"} icon={"logo-youtube"} />
+      <Social href={"https://www.instagram.com/pedro_bagarini"} icon={"logo-instagram"} />
+      <Social href={"https://www.twitch.tv/dark_ghost2007"} icon={"logo-twitch"} />
+      <Social href={"https://www.linkedin.com/in/pedro-bagarini-2aa2aa230"} icon={"logo-linkedin"} />
 
 
     </div>
